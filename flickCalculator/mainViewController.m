@@ -74,7 +74,7 @@
 }
 
 - (IBAction)displayHelpAlert:(UIButton *)sender {
-   UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Using FlickCalculator" message:@"Lightly flick or swipe a button to execute it." delegate:self cancelButtonTitle:@"Close" otherButtonTitles:nil];
+   UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Using flickCalculator" message:@"Lightly flick a button to execute it." delegate:self cancelButtonTitle:@"Close" otherButtonTitles:nil];
    [alert show];
 }
 

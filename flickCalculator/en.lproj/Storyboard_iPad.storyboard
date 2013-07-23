@@ -249,7 +249,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" text="0" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="40" id="Jn4-kC-lMJ">
-                                <rect key="frame" x="42" y="62" width="694" height="84"/>
+                                <rect key="frame" x="38" y="62" width="694" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="84"/>
                                 <nil key="highlightedColor"/>

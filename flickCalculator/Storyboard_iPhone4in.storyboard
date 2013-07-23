@@ -280,15 +280,6 @@
         <image name="unpressedButtonPositiveNegative.png" width="125" height="125"/>
         <image name="unpressedButtonSubtract.png" width="125" height="125"/>
     </resources>
-    <classes>
-        <class className="mainViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/mainViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="displayHelpAlert:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="screen" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

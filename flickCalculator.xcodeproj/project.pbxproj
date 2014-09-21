@@ -464,7 +464,9 @@
 				55433BD515B5FD7600DBFA6B /* Frameworks */,
 				55433BD315B5FD7600DBFA6B /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		55433BD315B5FD7600DBFA6B /* Products */ = {
 			isa = PBXGroup;
@@ -554,7 +556,12 @@
 			attributes = {
 				CLASSPREFIX = ewu;
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = Tufts;
+				ORGANIZATIONNAME = Personal;
+				TargetAttributes = {
+					55433BD115B5FD7600DBFA6B = {
+						DevelopmentTeam = NL9R2NGG34;
+					};
+				};
 			};
 			buildConfigurationList = 55433BCC15B5FD7600DBFA6B /* Build configuration list for PBXProject "flickCalculator" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -816,10 +823,13 @@
 		55433BF115B5FD7600DBFA6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "flickCalculator/flickCalculator-Prefix.pch";
 				INFOPLIST_FILE = "flickCalculator/flickCalculator-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -828,10 +838,13 @@
 		55433BF215B5FD7600DBFA6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "flickCalculator/flickCalculator-Prefix.pch";
 				INFOPLIST_FILE = "flickCalculator/flickCalculator-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
